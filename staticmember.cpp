@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 class demo{
-    int count;
+   static int count;
     public:
     void getcount(){
-        count=0;
-        cout<<"count:"<<++count;
+        cout<<"count="<<++count;
     }
 };
+     int demo::count;
 int main(){
     demo d1,d2,d3;
     d1.getcount();
