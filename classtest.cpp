@@ -6,12 +6,12 @@ class Test
      int mark; 
      float spi; 
    public: 
-     void SetData() 
+     void setData() 
      { 
        mark = 270; 
        spi = 6.5; 
      } 
-     void DisplayData() 
+     void displayData() 
      { 
        cout << "Mark= "<<mark<<endl; 
        cout << "spi= "<<spi;  
@@ -19,7 +19,7 @@ class Test
 } ;
 int main(){
     Test t1;
-    t1.SetData();
-    t1.DisplayData();
+    t1.setData();
+    t1.displayData();
     return 0;
 }
